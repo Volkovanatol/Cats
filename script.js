@@ -36,11 +36,10 @@ const createCard = function(cat, parent) {
 }
 
 
-createCard({name: "Вася", img_link: ""}, container);
-createCard({name: "Вася", img_link: "https://www.friendforpet.ru/api/sites/default/files/2022-01/%D0%BB%D0%B5%D0%B2%D0%B83_%D0%B0%D0%BB%D0%B5%D0%BA%D1%81.jpg"}, container);
+
 
 // запрос на сервер
-fetch("https://sb-cats.herokuapp.com/api/2/fe8/show") 
+fetch("https://sb-cats.herokuapp.com/api/2/Volkovanatol/show") 
 	// ответ от сервера что такой запрос существует
 	.then(res => res.json()) 
 	// получение результата
