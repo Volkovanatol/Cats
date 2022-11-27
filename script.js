@@ -64,7 +64,7 @@ const cat = {
 // JSON.parse(str) - сделает из строки объект (если внутри строки объек)
 
 const addCat = function() {
-	fetch("https://sb-cats.herokuapp.com/api/2/fe8/add", {
+	fetch("https://sb-cats.herokuapp.com/api/2/Volkovanatol/show", {
 		method: "POST",
 		headers: { // обязательно для POST/PUT/PATCH
 			"Content-Type": "application/json"
@@ -84,19 +84,3 @@ document.querySelector("#add").addEventListener("click", function(e) {
 	e.preventDefault();
 	addCat();
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
